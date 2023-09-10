@@ -1,3 +1,38 @@
-{
-	"folders": []
-}
+<!DOCTYPE html>
+<body>
+  <header>
+    <h1>Lugares Turísticos na Europa</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#france">França</a></li>
+      <li><a href="#italy">Itália</a></li>
+      <li><a href="#spain">Espanha</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="france">
+      <h2>França</h2>
+      <p>A França é famosa por suas belas paisagens, vinhos finos e culinária requintada. Aqui estão alguns lugares que você deve visitar:</p>
+      <!-- Aqdicionar imagens e descrições de lugares turísticos na França -->
+    </section>
+
+    <section id="italy">
+      <h2>Itália</h2>
+      <p>A Itália é conhecida por sua rica história, arte e gastronomia. Aqui estão alguns lugares que você deve visitar:</p>
+      <!-- Adicionar imagens e descrições de lugares turísticos na Itália -->
+    </section>
+
+    <section id="spain">
+      <h2>Espanha</h2>
+      <p>A Espanha é famosa por sua cultura vibrante, danças flamencas e touradas. Aqui estão alguns lugares que você deve visitar:</p>
+      <!-- Adicionar imagens e descrições de lugares turísticos na Espanha -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Lugares Turísticos na Europa Douglas Marquezini</p>
+  </footer>
+</body>
