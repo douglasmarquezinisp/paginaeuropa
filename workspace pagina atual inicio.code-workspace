@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <body>
   <header>
-    <h1>Lugares Turísticos na Europa</h1>
+    <h1>Pontos Turísticos De Países da Europa</h1>
   </header>
 
   <nav>
@@ -14,25 +14,37 @@
 
   <main>
     <section id="france">
-      <h2>França</h2>
+      <h1>França</h1>
+       <a href="https://pt.wikipedia.org/wiki/Fran%C3%A7a"><img src="img/banner franca.jpg" alt="Tbanner franca"width="1500" height="300">
+      
       <p>A França é famosa por suas belas paisagens, vinhos finos e culinária requintada. Aqui estão alguns lugares que você deve visitar:</p>
       <!-- Aqdicionar imagens e descrições da França -->
     </section>
 
-    <section id="italy">
-      <h2>Itália</h2>
+    <section id="Italy">
+      <h1>Itália</h1>
+       <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia"><img src="img/banneritalia.jpg" alt="banneritalia"width="1500" height="300">
+      
       <p>A Itália é conhecida por sua rica história, arte e gastronomia. Aqui estão alguns lugares que você deve visitar:</p>
-      <!-- Adicionar imagens e descrições da Itália -->
-    </section>
+      
+      <a href="https://pt.wikipedia.org/wiki/Torre_de_Pisa"><img src="img/Torre pisa.jpg" alt="Torre Pisa" width="450" height="300">
+      <a href="https://pt.wikipedia.org/wiki/Coliseu"><img src="img/coliseum.jpg" alt="coliseum" width="590" height="300">
+      <a href="https://pt.wikipedia.org/wiki/Fontana_di_Trevi"><img src="img/Fontana-di-Trevi.jpg" alt="fonte de Fontana-di-Trevi" width="590" height="300">
+    </section>  
 
     <section id="spain">
-      <h2>Espanha</h2>
+      <h1>Espanha</h1>
+       <a href="https://pt.wikipedia.org/wiki/Espanha"><img src="img/banner espanha.jpg" alt="bannerespanha"width="1500" height="300">
+      
       <p>A Espanha é famosa por sua cultura vibrante, danças flamencas e touradas. Aqui estão alguns lugares que você deve visitar:</p>
-      <!-- Adicionar imagens e descrições da Espanha -->
+      
+      <a href="https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Ventas"><img src="img/plaza de toros.jpg" alt="Plaza de toros" width="450" height="300">
+      <a href="https://pt.wikipedia.org/wiki/Santiago_de_Compostela"><img src="img/santiado de compostela.jpg" alt="santiago de compostela" width="590" height="300">
+      <a href="https://pt.wikipedia.org/wiki/Torre_Gl%C3%B2ries"><img src="img/Torre-Glories.jpg" alt="torre Torre-Glories" width="590" height="300">
     </section>
   </main>
 
   <footer>
-    <p>© 2023 Lugares Turísticos na Europa Douglas Marquezini</p>
+    <p>© 2023 Lugares Turísticos na Europa Douglas Marquezini for PROZ</p>
   </footer>
 </body>
