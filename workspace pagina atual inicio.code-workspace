@@ -1,50 +1,103 @@
 <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://example.com/path/to/your/image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+nav {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+</style>
+</head>
 <body>
-  <header>
-    <h1>Pontos Turísticos De Países da Europa</h1>
-  </header>
+<header>
+<h1>Pontos Turísticos De Países da Europa</h1>
+</header>
 
-  <nav>
-    <ul>
-      <li><a href="#france">França</a></li>
-      <li><a href="#italy">Itália</a></li>
-      <li><a href="#spain">Espanha</a></li>
-    </ul>
-  </nav>
+<nav>
+<ul>
+  <li><a href="#france">França</a></li>
+  <li><a href="#italy">Itália</a></li>
+  <li><a href="#spain">Espanha</a></li>
+</ul>
+</nav>
 
-  <main>
-    <section id="france">
-      <h1>França</h1>
-       <a href="https://pt.wikipedia.org/wiki/Fran%C3%A7a"><img src="img/banner franca.jpg" alt="Tbanner franca"width="1500" height="300">
-      
-      <p>A França é famosa por suas belas paisagens, vinhos finos e culinária requintada. Aqui estão alguns lugares que você deve visitar:</p>
-      <!-- Aqdicionar imagens e descrições da França -->
-    </section>
+<main>
+<section id="france">
+  <h1>França</h1>
+   <a href="https://pt.wikipedia.org/wiki/Fran%C3%A7a"><img src="img/banner franca.jpg" alt="Tbanner franca"width="1500" height="300">
+  
+  <p>A França é famosa por suas belas paisagens, vinhos finos e culinária requintada. Aqui estão alguns lugares que você deve visitar:</p>
+  <!-- Aqdicionar imagens e descrições da França -->
+</section>
 
-    <section id="Italy">
-      <h1>Itália</h1>
-       <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia"><img src="img/banneritalia.jpg" alt="banneritalia"width="1500" height="300">
-      
-      <p>A Itália é conhecida por sua rica história, arte e gastronomia. Aqui estão alguns lugares que você deve visitar:</p>
-      
-      <a href="https://pt.wikipedia.org/wiki/Torre_de_Pisa"><img src="img/Torre pisa.jpg" alt="Torre Pisa" width="450" height="300">
-      <a href="https://pt.wikipedia.org/wiki/Coliseu"><img src="img/coliseum.jpg" alt="coliseum" width="590" height="300">
-      <a href="https://pt.wikipedia.org/wiki/Fontana_di_Trevi"><img src="img/Fontana-di-Trevi.jpg" alt="fonte de Fontana-di-Trevi" width="590" height="300">
-    </section>  
+<section id="Italy">
+  <h1>Itália</h1>
+   <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia"><img src="img/banneritalia.jpg" alt="banneritalia"width="1500" height="300">
+  
+  <p>A Itália é conhecida por sua rica história, arte e gastronomia. Aqui estão alguns lugares que você deve visitar:</p>
+  
+  <a href="https://pt.wikipedia.org/wiki/Torre_de_Pisa"><img src="img/Torre pisa.jpg" alt="Torre Pisa" width="450" height="300">
+  <a href="https://pt.wikipedia.org/wiki/Coliseu"><img src="img/coliseum.jpg" alt="coliseum" width="590" height="300">
+  <a href="https://pt.wikipedia.org/wiki/Fontana_di_Trevi"><img src="img/Fontana-di-Trevi.jpg" alt="fonte de Fontana-di-Trevi" width="590" height="300">
+</section>  
 
-    <section id="spain">
-      <h1>Espanha</h1>
-       <a href="https://pt.wikipedia.org/wiki/Espanha"><img src="img/banner espanha.jpg" alt="bannerespanha"width="1500" height="300">
-      
-      <p>A Espanha é famosa por sua cultura vibrante, danças flamencas e touradas. Aqui estão alguns lugares que você deve visitar:</p>
-      
-      <a href="https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Ventas"><img src="img/plaza de toros.jpg" alt="Plaza de toros" width="450" height="300">
-      <a href="https://pt.wikipedia.org/wiki/Santiago_de_Compostela"><img src="img/santiado de compostela.jpg" alt="santiago de compostela" width="590" height="300">
-      <a href="https://pt.wikipedia.org/wiki/Torre_Gl%C3%B2ries"><img src="img/Torre-Glories.jpg" alt="torre Torre-Glories" width="590" height="300">
-    </section>
-  </main>
+<section id="spain">
+  <h1>Espanha</h1>
+   <a href="https://pt.wikipedia.org/wiki/Espanha"><img src="img/banner espanha.jpg" alt="bannerespanha"width="1500" height="300">
+  
+  <p>A Espanha é famosa por sua cultura vibrante, danças flamencas e touradas. Aqui estão alguns lugares que você deve visitar:</p>
+  
+  <a href="https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Ventas"><img src="img/plaza de toros.jpg" alt="Plaza de toros" width="450" height="300">
+  <a href="https://pt.wikipedia.org/wiki/Santiago_de_Compostela"><img src="img/santiado de compostela.jpg" alt="santiago de compostela" width="590" height="300">
+  <a href="https://pt.wikipedia.org/wiki/Torre_Gl%C3%B2ries"><img src="img/Torre-Glories.jpg" alt="torre Torre-Glories" width="590" height="300">
+</section>
+</main>
 
-  <footer>
-    <p>© 2023 Lugares Turísticos na Europa Douglas Marquezini for PROZ</p>
-  </footer>
+<footer>
+<p>© 2023 Lugares Turísticos na Europa Douglas Marquezini for PROZ</p>
+</footer>
 </body>
+
+
+
